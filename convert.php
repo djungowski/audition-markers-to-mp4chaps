@@ -9,7 +9,7 @@ fclose($handle);
 
 array_shift($chapters);
 
-header('Content-type: text/csv');
+header('Content-type: text/plain');
 header('Content-Disposition: attachment; filename="chapters.txt"');
 
 foreach($chapters as $chapter) {
