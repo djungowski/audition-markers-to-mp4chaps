@@ -1,0 +1,17 @@
+body {
+    background: #0f74a7;
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background: #0b567b;
+    border-radius: 10px;
+    color: #fff;
+    padding: 15px;
+    gap: 15px;
+    width: 500px;
+    margin: auto;
+}
